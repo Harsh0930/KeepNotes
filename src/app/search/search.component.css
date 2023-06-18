@@ -1,0 +1,11 @@
+.searchButton{
+    background-color: midnightblue;
+    color: whitesmoke;
+    border: 1px solid whitesmoke;
+    margin-left: 5px;
+}
+.search_input{
+    position:absolute;
+    top: 15px;
+    right:15px;
+}

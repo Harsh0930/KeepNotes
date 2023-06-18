@@ -1,0 +1,10 @@
+.main_header{
+    background-color: midnightblue;
+    color: white;
+    padding: 15px;
+    display: flex;
+    justify-content: space-between;
+}
+.header_title{
+    margin: 0;
+}

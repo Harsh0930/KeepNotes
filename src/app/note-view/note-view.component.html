@@ -1,0 +1,5 @@
+<app-note-add (noteAdded)="onNoteAdded($event)"></app-note-add>
+<div class="notes_container d-flex justify-content-center my-5">
+    <app-search (searchNoteCards)="onSearchNoteCards($event)"></app-search>
+    <app-note [note]="note" *ngFor="let note of notes"></app-note>
+</div>
